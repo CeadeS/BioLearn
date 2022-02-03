@@ -1,0 +1,15 @@
+setup.py
+bionet/__init__.py
+bionet/biomodule.py
+bionet/datasets.py
+bionet/experiment.py
+bionet/utils.py
+bionet.egg-info/PKG-INFO
+bionet.egg-info/SOURCES.txt
+bionet.egg-info/dependency_links.txt
+bionet.egg-info/requires.txt
+bionet.egg-info/top_level.txt
+bionet/modules/__init__.py
+bionet/modules/alexnetMini.py
+bionet/modules/linear.py
+bionet/modules/resnetMini.py
