@@ -86,20 +86,21 @@ bio_network = converter(MyNetwork)()
 
 ## Reproducing Our Experiments
 
-```bash
-pip install pytorch_bio_transformations
-pip install -r eval/requirements.txt
-```
-
 ### Evaluating Accuracy and Learning Progress
 
 To reproduce our accuracy and learning progress experiments:
-1. Go to the eval directory:
-   ```bash
-   cd eval/
+1. Install the bio_transformations package
+     ```bash
+   pip install pytorch_bio_transformations
    ```
-1. Run the experiment script:
+2. Clone the repository and install requirements:
    ```bash
+   git clone https://github.com/CeadeS/BioLearn.git
+   pip install -r BioLearn/eval/requirements.txt
+   ```
+3. Run the experiment script:
+   ```bash
+   cd BioLearn/eval/
    python run_experiment.py
    ```
 
