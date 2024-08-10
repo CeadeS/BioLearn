@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from bionet.biomodule import BioModule as bm
+from pytorch_bio_transformations.biomodule import BioModule as bm
 
 class FCNet(nn.Module):
     def __init__(self, in_feats=784, shapes=[1000], num_classes=10, activation_func_mod=nn.ReLU(inplace=True)):
