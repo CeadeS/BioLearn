@@ -113,7 +113,7 @@ To reproduce our gradient reconstruction experiments:
    - The trained model will be saved in `eval/models`
 
 2. Perform gradient inversion:
-   - Open and run the notebook `grad_rec/SimpleReconstruction.ipynb`
+   - Open and run the notebook `gradient_reconstruction/SimpleReconstruction.ipynb`
 
 ## Results
 
